@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{F131EF5A-443E-4BB0-B6CC-3095C5CA35A8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiAutores/appsettings.Development.json">
+    <Files>
+      <File FileName="WebApiAutores/Controllers/AutoresController.cs" Line="17" Column="15" />
+      <File FileName="WebApiAutores/Entities/Autor.cs" Line="11" Column="1" />
+      <File FileName="WebApiAutores/ApplicationDbContext.cs" Line="17" Column="1" />
+      <File FileName="WebApiAutores/appsettings.Development.json" Line="8" Column="21" />
+      <File FileName="WebApiAutores/Startup.cs" Line="33" Column="16" />
+      <File FileName="WebApiAutores/Migrations/20220802042233_Initial.cs" Line="1" Column="1" />
+      <File FileName="WebApiAutores/Migrations/ApplicationDbContextModelSnapshot.cs" Line="26" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApiAutores" expanded="True">
+            <Node name="WebApiAutores" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApiAutores PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
