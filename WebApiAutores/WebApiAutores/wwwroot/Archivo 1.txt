@@ -1,0 +1,7 @@
+Proceso Iniciado
+Proceso en ejecucion: 07/09/2022 09:58:46
+Proceso en ejecucion: 07/09/2022 09:58:51
+Proceso en ejecucion: 07/09/2022 09:58:56
+Proceso en ejecucion: 07/09/2022 09:59:01
+Proceso en ejecucion: 07/09/2022 09:59:06
+Proceso Finalizado
