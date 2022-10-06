@@ -11,8 +11,8 @@ using WebApiAutores;
 namespace WebApiAutores.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220802042233_Initial")]
-    partial class Initial
+    [Migration("20220927014602_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,11 +32,30 @@ namespace WebApiAutores.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Autores");
+                });
+
+            modelBuilder.Entity("WebApiAutores.Entities.Libro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Titulo")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Libros");
                 });
 #pragma warning restore 612, 618
         }
