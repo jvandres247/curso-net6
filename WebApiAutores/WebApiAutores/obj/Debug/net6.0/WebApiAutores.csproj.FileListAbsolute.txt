@@ -129,3 +129,11 @@ C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAuto
 C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\obj\Debug\net6.0\WebApiAutores.Properties.Resources.resources
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\obj\Debug\net6.0\WebApiAutores.csproj.GenerateResource.cache
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jvand\OneDrive\Documentos\Proyectos\curso-net6\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

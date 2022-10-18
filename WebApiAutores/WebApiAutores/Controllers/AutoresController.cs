@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using WebApiAutores.Entities;
 using WebApiAutores.Filtros;
 using WebApiAutores.DTOs;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace WebApiAutores.Controllers
 {
@@ -16,13 +18,17 @@ namespace WebApiAutores.Controllers
     {
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
-        public AutoresController(ApplicationDbContext context, IMapper mapper)
+        private readonly IConfiguration configuration;
+
+        public AutoresController(ApplicationDbContext context, IMapper mapper, IConfiguration configuration)
         {
             this.context = context;
             this.mapper = mapper;
+            this.configuration = configuration;
         }
 
         [HttpGet] //api/autores
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<List<AutorDTO>>> Get()
         {
            var autores = await context.Autores.ToListAsync();
@@ -104,6 +110,12 @@ namespace WebApiAutores.Controllers
             context.Remove(new Autor() { Id = id });
             await context.SaveChangesAsync();
             return NoContent();
+        }
+
+        [HttpGet("configuracion")]
+        public ActionResult<string> ObtenerConfiguracion()
+        {
+            return configuration["apellido"];
         }
     }
 }
